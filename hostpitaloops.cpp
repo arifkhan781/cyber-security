@@ -111,14 +111,14 @@ void hospital :: patient_appoint()
 
 void hospital::doctor_list()
 {
-    cout<<"\t\t\t\t\t1. Dr. Abdullah Al Siraj\t*Eye Specialist"<<endl<<endl;
-    cout<<"\t\t\t\t\t2. Dr. Altaf Uddin Khan\t\t*Heart Specialist"<<endl<<endl;
-    cout<<"\t\t\t\t\t3. Dr. Emdadul Hoque\t\t*Diabetic Specialist"<<endl<<endl;
-    cout<<"\t\t\t\t\t4. Dr. Mostofa Zia\t\t*Heart Surgent"<<endl<<endl;
-    cout<<"\t\t\t\t\t5. Dr. Shorif Uddin\t\t*Eye Specialist"<<endl<<endl;
-    cout<<"\t\t\t\t\t6. Dr. Sifat Hossain\t\t*Diabetic Specialist"<<endl<<endl;
-    cout<<"\t\t\t\t\t7. Dr. Siddratul Islam\t\t*Medicine Specialist"<<endl<<endl;
-    cout<<"\t\t\t\t\t8. Dr. Mominul Hossain Raju\t*Medicine Specialist"<<endl<<endl;
+    cout<<"\t\t\t\t\t1. Dr. Ramesh Chandra\t\t*Eye Specialist"<<endl<<endl;
+    cout<<"\t\t\t\t\t2. Dr. Sumit Pal\t\t*Heart Specialist"<<endl<<endl;
+    cout<<"\t\t\t\t\t3. Dr. Rahman Malik\t\t*Diabetic Specialist"<<endl<<endl;
+    cout<<"\t\t\t\t\t4. Dr. Raman Aggrwal\t\t*Heart Surgent"<<endl<<endl;
+    cout<<"\t\t\t\t\t5. Dr. Himanshu Negi\t\t*Eye Specialist"<<endl<<endl;
+    cout<<"\t\t\t\t\t6. Dr. Sirat khan\t\t*Diabetic Specialist"<<endl<<endl;
+    cout<<"\t\t\t\t\t7. Dr. Aditya Bose\t\t*Medicine Specialist"<<endl<<endl;
+    cout<<"\t\t\t\t\t8. Dr. Shubham Gupta\t\t*Medicine Specialist"<<endl<<endl;
 }
 
 void hospital::payment()
@@ -191,35 +191,35 @@ int main()
         cin>>doc;
         switch(doc)
         {
-            case 1: cout<<"\n\t\t\t\t\t\t1. Dr. Abdullah Al Siraj"<<endl;
+            case 1: cout<<"\n\t\t\t\t\t\t1. Dr. Ramesh Chandra"<<endl;
             cout<<"\t\t\t\t\t\t_____________________________"<<endl<<endl;
             pat.one();
             break;
-            case 2: cout<<"\n\t\t\t\t\t\t2. Dr. Altaf Uddin Khan"<<endl;
+            case 2: cout<<"\n\t\t\t\t\t\t2. Dr. Sumit Pal"<<endl;
             cout<<"\t\t\t\t\t\t_____________________________"<<endl<<endl;
             pat.two();
             break;
-            case 3: cout<<"\n\t\t\t\t\t\t3. Dr. Emdadul Hoque"<<endl;
+            case 3: cout<<"\n\t\t\t\t\t\t3. Dr. Rahman Malik"<<endl;
             cout<<"\t\t\t\t\t\t_____________________________"<<endl<<endl;
             pat.three();
             break;
-            case 4: cout<<"\n\t\t\t\t\t\t4. Dr. Mostofa Zia"<<endl;
+            case 4: cout<<"\n\t\t\t\t\t\t4. Dr. Raman Aggrwal"<<endl;
             cout<<"\t\t\t\t\t\t_____________________________"<<endl<<endl;
             pat.four();
             break;
-            case 5: cout<<"\n\t\t\t\t\t\t5. Dr. Shorif Uddin"<<endl;
+            case 5: cout<<"\n\t\t\t\t\t\t5. Dr. Himanshu Negi"<<endl;
             cout<<"\t\t\t\t\t\t_____________________________"<<endl<<endl;
             pat.five();
             break;
-            case 6: cout<<"\n\t\t\t\t\t\t6. Dr. Sifat Hossain"<<endl;
+            case 6: cout<<"\n\t\t\t\t\t\t6. Dr. Sirat Khan"<<endl;
             cout<<"\t\t\t\t\t\t_____________________________"<<endl<<endl;
             pat.six();
             break;
-            case 7: cout<<"\n\t\t\t\t\t\t7. Dr. Siddratul Islam"<<endl;
+            case 7: cout<<"\n\t\t\t\t\t\t7. Dr. Aditya Bose"<<endl;
             cout<<"\t\t\t\t\t\t_____________________________"<<endl<<endl;
             pat.seven();
             break;
-            case 8: cout<<"\n\t\t\t\t\t\t8. Dr. Mominul Hossain Raju"<<endl;
+            case 8: cout<<"\n\t\t\t\t\t\t8. Dr. Shubham Gupta"<<endl;
             cout<<"\t\t\t\t\t\t_____________________________"<<endl<<endl;
             pat.eight();
             break;
